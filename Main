@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creator Nexus</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#3b82f6;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#3b82f6;
+}
+
+.hero p{
+    max-width:700px;
+    margin:0 auto 30px;
+    color:#cbd5e1;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#3b82f6;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#2563eb;
+}
+
+section{
+    padding:100px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+.section-text{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    color:#cbd5e1;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:12px;
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#60a5fa;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    margin-top:50px;
+}
+
+.feature{
+    background:#1e293b;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+footer{
+    border-top:1px solid #1e293b;
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo">Creator Nexus</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">How It Works</a></li>
+        <li><a href="#creators">Creators</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+</div>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Connecting <span>Creators</span> With Premium Partnerships</h1>
+
+            <p>
+                We help content creators unlock new revenue opportunities through strategic
+                partnerships, sponsorships and long-term brand relationships.
+            </p>
+
+            <a href="#contact" class="btn">Apply As A Creator</a>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+
+        <h2 class="section-title">About Creator Nexus</h2>
+
+        <p class="section-text">
+            Creator Nexus bridges the gap between creators and brands.
+            We help creators monetise their audience while helping businesses
+            connect with highly engaged communities through authentic partnerships.
+        </p>
+
+    </div>
+</section>
+
+<section id="works">
+    <div class="container">
+
+        <h2 class="section-title">How It Works</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>1. Apply</h3>
+                <p>
+                    Tell us about your audience, content and growth goals.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>2. Get Matched</h3>
+                <p>
+                    We connect you with relevant partnership opportunities.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>3. Monetise</h3>
+                <p>
+                    Launch high-value sponsorships and build recurring revenue.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="creators">
+    <div class="container">
+
+        <h2 class="section-title">Why Work With Us?</h2>
+
+        <div class="features">
+
+            <div class="feature">Partnership Opportunities</div>
+
+            <div class="feature">Dedicated Support</div>
+
+            <div class="feature">Revenue Growth</div>
+
+            <div class="feature">Fast Communication</div>
+
+            <div class="feature">Negotiation Assistance</div>
+
+            <div class="feature">Long-Term Relationships</div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+
+        <div class="contact">
+
+            <h2 class="section-title">Get In Touch</h2>
+
+            <p>Email: your@email.com</p>
+            <p>Discord: YourDiscord#0001</p>
+            <p>Telegram: @YourTelegram</p>
+
+            <br>
+
+            <a class="btn" href="mailto:your@email.com">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Creator Nexus. All Rights Reserved.
+</footer>
+
+</body>
+</html>
